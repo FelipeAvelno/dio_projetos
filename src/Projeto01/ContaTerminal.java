@@ -7,7 +7,6 @@ import java.util.Scanner;
 public class ContaTerminal {
     public static void main(String[] args) {
 
-
         try {
             Scanner scanner = new Scanner(System.in);
             scanner.useLocale(Locale.US);
