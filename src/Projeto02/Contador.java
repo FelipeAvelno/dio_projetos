@@ -14,6 +14,8 @@ public class Contador {
             contar(num01, num02);
         } catch (ParametrosInvalidosException exception) {
             System.out.println(exception.getMessage());
+        } finally {
+            scanner.close();
         }
     }
 
